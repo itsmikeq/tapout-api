@@ -1,0 +1,80 @@
+require: rubocop-rails
+
+AllCops:
+    NewCops: enable
+    Exclude:
+      - 'db/schema.rb'  # auto-generated so we don't care
+      - 'bin/*'  # auto-generated so we don't care
+      - 'db/seeds.rb'   # wild west, and we like it that way
+      - 'vendor/**/*'   # CI installs gems into `vendor/bundle`
+      - 'node_modules/**/*'
+      - 'tmp/**/*'
+      - '.git/**/*'
+    Rails: true
+    SuggestExtensions: false
+
+# annoying rules that we think are too heavy-handed
+Layout/LineLength:
+    Enabled: false
+
+Metrics/AbcSize:
+    Enabled: false
+
+Metrics/BlockLength:
+    Enabled: false
+
+Metrics/ClassLength:
+    Enabled: false
+
+Metrics/CyclomaticComplexity:
+    Enabled: false
+
+Metrics/MethodLength:
+    Enabled: false
+
+Metrics/ParameterLists:
+    Enabled: false
+
+Metrics/PerceivedComplexity:
+    Enabled: false
+
+Rails/BulkChangeTable:
+    Enabled: false
+
+Rails/FindById:
+    Enabled: false
+
+Style/Documentation:
+    Enabled: false
+
+Style/StringConcatenation:
+    Enabled: false
+
+# rules that we want to tune have to specific changes
+Style/StringLiterals:
+    EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+    EnforcedStyle: single_quotes
+
+Rails/SkipsModelValidations:
+    AllowedMethods:
+        - touch
+        - touch_all
+        - update_all
+
+Rails/TimeZone:
+    EnforcedStyle: strict
+
+Rails/UnknownEnv:
+    Environments:
+        - development
+        - test
+        - staging
+        - production
+
+Rails/DynamicFindBy:
+    AllowedMethods:
+
+Layout/FirstHashElementIndentation:
+    EnforcedStyle: consistent
