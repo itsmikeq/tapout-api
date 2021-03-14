@@ -1,0 +1,713 @@
+[
+  {
+    "id": 278562,
+    "cpi": "2.0",
+    "length_of_interview": 10,
+    "name": "Cereal",
+    "total_remaining": 100,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 100,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [
+      {
+        "id": 360876282,
+        "question_id": 42,
+        "pre_codes": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ]
+      },
+      {
+        "id": 360876283,
+        "question_id": 50005,
+        "pre_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "campaign_quotas": [
+      {
+        "id": 1118454,
+        "num_respondents": 100,
+        "name": "",
+        "campaign_qualifications": [
+          {
+            "question_id": 42,
+            "pre_codes": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99
+            ]
+          }
+        ]
+      }
+    ],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278563,
+    "cpi": "1.25",
+    "length_of_interview": 2,
+    "name": "Pizza",
+    "total_remaining": 123,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 50,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [
+      {
+        "id": 360876287,
+        "question_id": 43,
+        "pre_codes": [
+          1
+        ]
+      },
+      {
+        "id": 360876288,
+        "question_id": 50005,
+        "pre_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "campaign_quotas": [
+      {
+        "id": 1118455,
+        "num_respondents": 123,
+        "name": "",
+        "campaign_qualifications": [
+          {
+            "question_id": 43,
+            "pre_codes": [
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278564,
+    "cpi": "4.25",
+    "length_of_interview": 25,
+    "name": "California",
+    "total_remaining": 100,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 32,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [],
+    "campaign_quotas": [],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278565,
+    "cpi": "1.0",
+    "length_of_interview": 4,
+    "name": "Cookie Monster",
+    "total_remaining": 143,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 23,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [
+      {
+        "id": 360876291,
+        "question_id": 43,
+        "pre_codes": [
+          2
+        ]
+      },
+      {
+        "id": 360876292,
+        "question_id": 50005,
+        "pre_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "campaign_quotas": [
+      {
+        "id": 1118457,
+        "num_respondents": 143,
+        "name": "",
+        "campaign_qualifications": [
+          {
+            "question_id": 43,
+            "pre_codes": [
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278566,
+    "cpi": "12.0",
+    "length_of_interview": 15,
+    "name": "Elmo",
+    "total_remaining": 1234,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 65,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [
+      {
+        "id": 360876295,
+        "question_id": 42,
+        "pre_codes": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      },
+      {
+        "id": 360876296,
+        "question_id": 632,
+        "pre_codes": [
+          2
+        ]
+      },
+      {
+        "id": 360876297,
+        "question_id": 50005,
+        "pre_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "campaign_quotas": [
+      {
+        "id": 1118458,
+        "num_respondents": 1234,
+        "name": "",
+        "campaign_qualifications": [
+          {
+            "question_id": 42,
+            "pre_codes": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34
+            ]
+          },
+          {
+            "question_id": 632,
+            "pre_codes": [
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278567,
+    "cpi": "3.0",
+    "length_of_interview": 3,
+    "name": "Grover",
+    "total_remaining": 432,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 7,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [
+      {
+        "id": 360876301,
+        "question_id": 42,
+        "pre_codes": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ]
+      },
+      {
+        "id": 360876302,
+        "question_id": 50005,
+        "pre_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "campaign_quotas": [
+      {
+        "id": 1118459,
+        "num_respondents": 432,
+        "name": "",
+        "campaign_qualifications": [
+          {
+            "question_id": 42,
+            "pre_codes": [
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55
+            ]
+          }
+        ]
+      }
+    ],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278568,
+    "cpi": "4.0",
+    "length_of_interview": 13,
+    "name": "Snuffy",
+    "total_remaining": 33,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 100,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [
+      {
+        "id": 360876304,
+        "question_id": 43,
+        "pre_codes": [
+          2
+        ]
+      },
+      {
+        "id": 360876305,
+        "question_id": 50005,
+        "pre_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "campaign_quotas": [
+      {
+        "id": 1118460,
+        "num_respondents": 33,
+        "name": "",
+        "campaign_qualifications": [
+          {
+            "question_id": 43,
+            "pre_codes": [
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278569,
+    "cpi": "5.0",
+    "length_of_interview": 4,
+    "name": "Oscar",
+    "total_remaining": 33,
+    "status": 6,
+    "supplier_link": "http://www.developingmedia.com/adhoc.php?id=",
+    "incidence": 50,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [],
+    "campaign_quotas": [],
+    "campaign_relationships": []
+  },
+  {
+    "id": 278570,
+    "cpi": "7.0",
+    "length_of_interview": 8,
+    "name": "Ernie",
+    "total_remaining": 543,
+    "status": 6,
+    "supplier_link": "https://www.tapresearch.com/router/offers/status_cb?status=1\u0026id=",
+    "incidence": 34,
+    "reentry_interval": null,
+    "days_in_field": 5,
+    "max_daily_completes": null,
+    "is_retarget": false,
+    "is_maid_targeted": false,
+    "retarget_count": 0,
+    "supported_devices": [
+      0,
+      1,
+      2
+    ],
+    "country_language_id": 1,
+    "custom_campaign_qualifications": [
+      {
+        "id": 360876310,
+        "question_id": 43,
+        "pre_codes": [
+          1
+        ]
+      },
+      {
+        "id": 360876311,
+        "question_id": 50005,
+        "pre_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "campaign_quotas": [
+      {
+        "id": 1118462,
+        "num_respondents": 543,
+        "name": "",
+        "campaign_qualifications": [
+          {
+            "question_id": 43,
+            "pre_codes": [
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    "campaign_relationships": []
+  }
+]
