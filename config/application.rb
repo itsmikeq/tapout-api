@@ -36,5 +36,9 @@ module TapoutApi
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+    config.require_master_key = true
+    config.active_record.schema_format = :sql
+    config.api_base_url = ENV.fetch('API_BASE_URL', 'staging.tapresearch.com')
+
   end
 end
