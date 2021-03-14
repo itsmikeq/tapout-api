@@ -38,7 +38,6 @@ group :development, :test do
   gem 'ffaker'
   gem 'rspec-rails', '~> 5.0'
   gem 'sinatra'
-  gem 'dotenv-rails'
 end
 
 group :development do
