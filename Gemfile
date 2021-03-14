@@ -27,6 +27,14 @@ gem 'httparty', '>= 0.18.1'
 gem 'oj', '~> 3.9.2'
 gem 'pry-rails'
 
+# allow for some background jobs
+gem 'sidekiq'
+
+# so we can fetch new data from time to time
+gem 'sidekiq-cron', '~> 1.2'
+
+gem "foreman"
+
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
@@ -53,6 +61,7 @@ group :test do
   gem 'shoulda-matchers', require: false
   gem 'spring-commands-rspec'
   gem 'webmock'
+  gem "rspec-sidekiq"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

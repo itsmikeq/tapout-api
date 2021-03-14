@@ -1,0 +1,14 @@
+default: &default
+  tap_research_import_job:
+    cron: "*/30 * * * *"
+    class: "TapResearchImportJob"
+    name: "Pulls data from TapResearch every 30 minutes"
+development:
+  <<: *default
+test:
+  <<: *default
+staging:
+  <<: *default
+production:
+  <<: *default
+
