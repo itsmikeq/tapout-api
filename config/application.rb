@@ -5,13 +5,13 @@ require "rails"
 require "active_model/railtie"
 require "active_job/railtie"
 require "active_record/railtie"
-require "active_storage/engine"
+# require "active_storage/engine"
 require "action_controller/railtie"
 require "action_mailer/railtie"
-require "action_mailbox/engine"
-require "action_text/engine"
+# require "action_mailbox/engine"
+# require "action_text/engine"
 require "action_view/railtie"
-require "action_cable/engine"
+# require "action_cable/engine"
 # require "sprockets/railtie"
 require "rails/test_unit/railtie"
 
@@ -37,8 +37,7 @@ module TapoutApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.require_master_key = true
-    config.active_record.schema_format = :sql
+    config.active_record.schema_format = :sql # do sql dumps so we can see whats going on
     config.api_base_url = ENV.fetch('API_BASE_URL', 'staging.tapresearch.com')
-
   end
 end
