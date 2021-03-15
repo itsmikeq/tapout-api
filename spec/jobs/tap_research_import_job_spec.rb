@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 require 'sidekiq/testing'
 require 'sidekiq/testing/inline'
@@ -21,8 +23,7 @@ RSpec.describe TapResearchImportJob, type: :job do
     it 'queues up a job in the queue' do
       expect do
         described_class.perform_later
-      end.to change { (enqueued_jobs.size) }.by(1)
+      end.to change { enqueued_jobs.size }.by(1)
     end
   end
-
 end

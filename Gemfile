@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -33,7 +35,7 @@ gem 'sidekiq'
 # so we can fetch new data from time to time
 gem 'sidekiq-cron', '~> 1.2'
 
-gem "foreman"
+gem 'foreman'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
@@ -51,17 +53,17 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
   gem 'rubocop-rails', require: false
+  gem 'spring'
 end
 
 group :test do
   gem 'database_cleaner-active_record'
   gem 'mock_redis'
+  gem 'rspec-sidekiq'
   gem 'shoulda-matchers', require: false
   gem 'spring-commands-rspec'
   gem 'webmock'
-  gem "rspec-sidekiq"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

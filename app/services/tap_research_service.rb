@@ -24,6 +24,7 @@ class TapResearchService
       campaign_quotas = campaign(campaign.id)['campaign_quotas']
       # Sometimes there is nothing
       next unless campaign_quotas.any?
+
       campaign_quotas.each do |campaign_quota|
         cq = CampaignQuota.create_or_find_by!(campaign_id: campaign.id, id: campaign_quota['id'])
         campaign_quota['campaign_qualifications'].each do |campaign_qualification|
