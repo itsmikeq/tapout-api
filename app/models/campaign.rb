@@ -3,6 +3,7 @@
 class Campaign < ApplicationRecord
   has_many :campaign_quotas, inverse_of: :campaign, dependent: :destroy
   has_many :campaign_qualifications, through: :campaign_quotas
+  validates_presence_of :name, :cpi, :length_of_interview
 
   def as_json(options = {})
     super(options.merge(except: %w[created_at updated_at]))

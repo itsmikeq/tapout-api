@@ -5,7 +5,7 @@ class CreateCampaignQualifications < ActiveRecord::Migration[6.1]
     create_table :campaign_qualifications do |t|
       t.references :campaign_quota, null: false, foreign_key: true
       t.integer :question_id, null: false
-      t.text :pre_codes, array: true, default: []
+      t.integer :pre_codes, array: true, default: []
 
       t.timestamps
     end

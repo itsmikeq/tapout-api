@@ -33,7 +33,7 @@ CREATE TABLE public.campaign_qualifications (
     id bigint NOT NULL,
     campaign_quota_id bigint NOT NULL,
     question_id integer NOT NULL,
-    pre_codes text[] DEFAULT '{}'::text[],
+    pre_codes integer[] DEFAULT '{}'::integer[],
     created_at timestamp(6) without time zone NOT NULL,
     updated_at timestamp(6) without time zone NOT NULL
 );
